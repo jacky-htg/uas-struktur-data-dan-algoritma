@@ -191,8 +191,6 @@ Masih di terminal, jalankan program dengan cara berikut :
 Ketika program dijalankan, outputnya adalah sebagai berikut:
 
 ```console
-mathematica
-Copy code
 Original Array:
 Fahmi Jakarta
 Romi Solo
@@ -213,6 +211,8 @@ Rudi Bali
 Ruli Bandung
 Zaki Madiun
 ```
+
+![Output Bubble Sort](./output-bubble-sort.png?raw=true)
 
 ### 1.7. Kesimpulan
 
