@@ -1,5 +1,8 @@
 # UAS Struktur Data dan Algoritma PJJ Informatika Unsia
 
+Nama : Rijal Asepnugroho
+NIM : 210401010129
+
 ## 1. Mengurutkan Data dalam C++
 
 Data awal sebelum diurutkan :
