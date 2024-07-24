@@ -1,3 +1,6 @@
+// Nama : Rijal Asepnugroho
+// NIM : 210401010129
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
