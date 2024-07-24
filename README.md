@@ -1,4 +1,4 @@
-# UAS Struktur Data dan -Algoritma
+# UAS Struktur Data dan Algoritma
 
 ## 1. Mengurutkan Data dengan Bubble Sort dalam C++
 
