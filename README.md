@@ -1,4 +1,4 @@
-# UAS Struktur Data dan Algoritma
+# UAS Struktur Data dan Algoritma PJJ Informatika Unsia
 
 ## 1. Mengurutkan Data dalam C++
 
