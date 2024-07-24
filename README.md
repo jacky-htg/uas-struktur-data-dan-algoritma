@@ -1,6 +1,8 @@
 # UAS Struktur Data dan Algoritma
 
-## 1. Mengurutkan Data dengan Bubble Sort dalam C++
+## 1. Mengurutkan Data dalam C++
+
+### 1.1 Bubble Sort
 
 Kita akan mengimplementasikan algoritma Bubble Sort untuk mengurutkan data dalam C++. Contoh ini menggunakan struktur Data yang berisi nama dan kota, dan mengurutkan berdasarkan nama.
 
@@ -30,7 +32,7 @@ Hasil akhir setelah data diurutkan
 | Ruli     | Bandung    |
 | Zaki     | Madiun     |
 
-### 1.1 Struktur Data
+#### 1.1.1 Struktur Data
 
 Kita mulai dengan mendefinisikan struktur `Data` yang berisi dua atribut: `name` dan `city`.
 
@@ -41,7 +43,7 @@ struct Data {
 };
 ```
 
-### 1.2. Fungsi Bubble Sort
+#### 1.1.2. Fungsi Bubble Sort
 
 Berikut adalah fungsi `bubbleSort` yang mengurutkan vektor `Data` berdasarkan `name` menggunakan algoritma Bubble Sort.
 
@@ -63,7 +65,7 @@ void bubbleSort(vector<Data>& arr) {
 - **Looping Dalam**: Loop `for` kedua berjalan dari indeks `0` hingga `n-i-2`. Ini karena elemen terbesar sudah berada di posisi akhir pada setiap iterasi luar.
 - **Kondisi Swap**: Jika elemen saat ini (`arr[j].name`) lebih besar dari elemen berikutnya (`arr[j + 1].name`), maka kita tukar kedua elemen tersebut.
 
-### 1.3. Fungsi Print Array
+#### 1.1.3. Fungsi Print Array
 
 Fungsi `printArray` digunakan untuk mencetak elemen-elemen dalam vektor `Data`.
 
@@ -79,7 +81,7 @@ void printArray(const vector<Data>& arr) {
 - Loop `for` digunakan untuk iterasi setiap elemen dalam vektor `Data`.
 - Setiap elemen dicetak dalam format `name city`.
 
-### 1.4. Fungsi `main`
+#### 1.1.4. Fungsi `main`
 
 Berikut adalah fungsi `main` yang menginisialisasi vektor `Data`, mencetak array asli, mengurutkannya menggunakan `bubbleSort`, dan mencetak array yang sudah diurutkan.
 
@@ -170,7 +172,7 @@ int main() {
 }
 ```
 
-### 1.5. Build
+#### 1.1.5. Build
 
 Untuk mem-build kode di atas menjadi file binary yang bisa diexecute, buka terminal dan lakukan perintah berikut :
 
@@ -180,7 +182,7 @@ g++ 01-bubble-sort.cpp -o bubble-sort -std=c++11
 
 Perintah di atas akan menghasilkan file binary bernama bubble-sort.
 
-### 1.6. Output Program
+#### 1.1.6. Output Program
 
 Masih di terminal, jalankan program dengan cara berikut :
 
@@ -214,6 +216,6 @@ Zaki Madiun
 
 ![Output Bubble Sort](./output-bubble-sort.png?raw=true)
 
-### 1.7. Kesimpulan
+#### 1.1.7. Kesimpulan
 
 Kita telah mengimplementasikan algoritma Bubble Sort untuk mengurutkan data dalam C++. Algoritma ini berguna untuk memahami konsep dasar pengurutan meskipun dalam praktik sering digunakan algoritma yang lebih efisien seperti Quick Sort atau Merge Sort.
